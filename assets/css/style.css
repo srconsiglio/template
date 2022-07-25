@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.logo{
+    display: flex;
+    align-items: center ;
+   
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul, nav li{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: gray;
+    display: flex;
+    
+}
+
+nav .active, nav a:hover {
+    background-color: brown;
+    color: aqua;
+}
+
+
